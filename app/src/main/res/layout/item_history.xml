@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <View
+        android:id="@+id/viewHistoryColor"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/tvHistoryDate"
+        android:layout_width="0dp"
+        android:layout_weight="0.35"
+        android:layout_height="wrap_content"
+        android:text="24 мая 2025"
+        android:textSize="14sp"
+        android:textColor="#333" />
+
+    <TextView
+        android:id="@+id/tvHistoryAmount"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:layout_height="wrap_content"
+        android:text="+10"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvHistoryComment"
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_height="wrap_content"
+        android:text="Покупка на просадке"
+        android:textSize="12sp"
+        android:textColor="#666"
+        android:textAlignment="textEnd"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+</LinearLayout>

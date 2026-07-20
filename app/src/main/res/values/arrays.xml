@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Работа</item>
+        <item>Личное</item>
+        <item>Здоровье</item>
+        <item>Обучение</item>
+        <item>Финансы</item>
+        <item>Путешествия</item>
+        <item>Творчество</item>
+        <item>Спорт</item>
+        <item>Другое</item>
+    </string-array>
+</resources>
